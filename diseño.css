@@ -1,0 +1,355 @@
+/*CSS*/
+*{
+	font-family: 'Brutalism', sans-serif;;
+}
+html{
+	background:linear-gradient(180deg, #ffc145, #0066B9, #ff6b6c) ;
+}
+nav{
+	background: #FD5;
+	margin:-8px;
+	border: 3px solid black;
+	border-left: 0px;
+	border-right: 0px;
+	display:flex;
+	justify-content:space-between;
+
+}
+		.bloque-a{
+			font-family:"Coconut Cookies";
+			margin-left: 10px;
+			font-size: 30px;
+			cursor:default;
+			margin-top: 18px;
+			position: relative;
+		}
+		.bloque-b{
+			display: flex;
+			justify-content: flex-end;
+		}
+			.bloques{
+				padding:5px;
+				display: block;
+				margin: 20px;
+				font-family: 'Roboto Mono', monospace;
+				font-size: 20px;
+				text-decoration: none;
+				color: black;
+	}
+				.bloques:hover{
+					transition: background 0.7s;
+					border-bottom: 1px solid white;
+					background-color: #AF8626FF;
+					border-radius: 15px;
+					color: white;
+				}
+					.bloques:active{
+						background-color:rgba(189,189,174,0.9);
+				}
+.Destacado{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 10px;
+}
+	
+		#tamaño-1{
+			font-size:65px;
+			font-family:"Coconut Cookies";
+			cursor:default;
+		}
+		#tamaño-2{
+			font-family:"Cartoon cookies";
+			font-size: 35px;
+			margin-top: -30px;
+			cursor:default;
+		}
+	.bloques-1{
+		color: black;
+		margin-right: 30px;
+		text-decoration: none;
+	}
+.bloque-d{
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	font-family:"Calibri";
+}
+
+	.bloques-2-a{
+		background-size: cover;
+		display:flex;
+		align-items:center;
+	}
+	
+		.capa:hover{
+			opacity: 0.5;
+		}
+		.imagen-turismo-1{
+			background: url(imagenes/turismo-1.png);
+			background-size: cover;
+			width: 300px;
+			height: 400px;
+			margin: 15px;
+		}	
+		.imagen-turismo-2{
+			background: url(imagenes/turismo-2.png);
+			background-size: cover;
+			width: 300px;
+			height: 400px;
+			margin: 15px;
+		}	
+		.imagen-turismo-3{
+			background: url(imagenes/turismo-3.png);
+			background-size: cover;
+			width: 300px;
+			height: 400px;
+			margin: 15px;
+		}	
+		.imagen-turismo-4{
+			background: url(imagenes/turismo-4.png);
+			background-size: cover;
+			width: 300px;
+			height: 400px;
+			margin: 15px;
+		}	
+			.Oculto{
+				position: absolute;
+				overflow: hidden;
+				width: 300px;
+				height: 400px;
+				opacity: 0;
+				transition: opacity 0.3s;
+				display: flex;
+				flex-direction: column;
+				text-align: center;
+			}
+				.Oculto h1{
+					color: white;
+				}
+				.Oculto p{
+					color:white;
+					font-family: 'Roboto Mono', monospace;
+					font-size: 15px;
+					font-weight: 600;
+					margin: 15px;
+					position: absolute;
+					bottom: 0;
+				}
+				.Oculto:hover{
+					opacity:1;
+					background: linear-gradient(80deg, rgba(22, 53, 130, 0.4), rgba(157, 43, 206, 0.6));
+				}
+		.bloques-2:hover{
+			transform: scale(1.1);
+			transition: 0.5s;
+
+		}
+		ul{
+			text-align:left;
+	}
+		.capsula{
+			display:flex;
+			align-items:center;
+			margin-bottom: 15px;
+		}
+			#color-1{
+				background-color:#a7ff84;
+				width:20px;
+				height:20px;
+				border-radius:50px;
+				margin-right:5px;
+		}	
+				#color-2{
+					background-color:#fc5185;
+					width:20px;
+					height:20px;
+					border-radius:50px;
+					margin-right:5px;
+				}
+					#color-3{
+						background-color:#bf3545;
+						width:20px;
+						height:20px;
+						border-radius:50px;
+						margin-right:5px;
+					}
+						#color-4{
+							background-color:#582133;
+							width:20px;
+							height:20px;
+							border-radius:50px;
+							margin-right:5px;
+						}
+							#color-5{
+								background-color:#107a8a;
+								width:20px;
+								height:20px;
+								border-radius:50px;
+								margin-right:5px;
+							}
+								#color-6{
+									background-color:#99b3ff;
+									width:20px;
+									height:20px;
+									border-radius:50px;
+									margin-right:5px;
+								}
+						button{
+							cursor:pointer;
+							border:2px solid black;
+							margin-top:20px;
+						}
+		.bloque-e{
+			background-color: black;
+			width: 80%;
+			margin: 20px;
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			border:2px solid black;
+			line-height: 1.5;
+		}
+			.sub-e{
+				display:flex;
+				justify-content:center;
+				margin-top:20px;
+			}
+			.sub-e2{
+				width: 50%;
+				margin: 10px;
+			}
+				#color-7{
+					background-color:black;
+					border: 1px solid white;
+					width:50%;
+					height:250px;
+					margin:10px;
+				}
+					#color-8{
+						background-color:#353526 ;
+						width:50%;
+						height:250px;
+						margin:10px;
+					}
+							.a-2{
+								float:left;
+								margin-left:20px;
+								color:black;
+							}	
+			.bloque-f{
+				background-color: #CCEF;
+				width: 100%;
+				height: 350px;
+				display:flex;
+				flex-direction:column;
+				align-items:center;
+				font-family:"calibri";
+			}
+				h3{
+					margin-top:50px;
+				}
+				.p-small{
+					margin-top:-15px;
+				}
+					.a-color{
+						color:#0D0087;
+					}
+			.bloques-3{
+				width:400px;
+				height:300px;
+				display:flex;
+				flex-direction:column;
+				align-items:center;
+				margin:0px 10px;
+				text-align:center;
+			}
+					.circulo{
+						color:#0D0087;
+						width:30px;
+						height:30px;
+						border-radius:50px;
+						border: 2px solid #0D0087;
+						text-align:center;
+					}
+		.bloque-h{
+			font-family:"calibri";
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+		}			
+			.precios{
+				background-color:#cffedf;
+				width:100%;
+				height:150px;
+				display:inline-block;
+				text-align:center;
+			}
+				.a-precios{
+					color:black;
+					font-size:20px;
+				}
+					.a-precios:hover{
+						font-size:25px;
+						transition: 0.2s;
+
+					}
+			.detalles{
+				background-color:#82eab6;
+				width:100%;
+				height:200px;
+				display:flex;
+				justify-content:center;
+				
+			}
+				.bloques-4{
+					width:400px;
+					margin-left:100px;
+				}
+				.bloques-5{
+					width:400px;
+					height:300px;
+					display:flex;
+					flex-direction:column;
+					align-items:center;
+					margin:10px;
+					text-align:center;
+				}
+					.circulo-1{
+						border-radius:50px;
+					}
+	.pies{
+		background-color:#e1c9a8;
+		margin-top:100px;
+		width:100%;
+		height:600px
+	}
+		.bloque-i{
+			display:flex;
+			flex-direction:row;
+		}
+			.bloques-6{
+				margin-left:20px;
+				margin-right:90px;
+				width:250px;
+			}
+footer{
+	background-color:black;
+	width:100%;
+	height:150px;
+	margin-bottom:-20px;
+	margin-top:-20px;
+	text-align:center;
+}			
+	.p-final{
+		text-align:center;
+		color:white;
+		margin:50px 0px;
+	}
+	.a-final{
+		color:white;
+		text-align:center;
+		text-decoration:none;
+		font-family:"calibri";
+		margin-right:10px;
+	}
